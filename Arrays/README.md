@@ -17,9 +17,19 @@ I am going to calculate the time complexity of the following operations:
    - **Time Complexity**: O(n)
    - **Space Complexity**: O(n)
 5. **Insert**:
+
    - At the beginning
+     - **Time Complexity**: O(n)
    - At the end
+   - if Dynamic :
+     - **Time Complexity**: O(1)
+   - if Static :
+
+     - **Time Complexity**: O(2)
+
    - Somewhere in the middle
+     - **Time Complexity**: O(n)
+
 6. **Remove**:
    - At the beginning
    - At the end

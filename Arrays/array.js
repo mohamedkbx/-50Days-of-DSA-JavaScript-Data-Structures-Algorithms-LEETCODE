@@ -29,3 +29,36 @@ for (let i = 0; i < arr.length; i++) {
 if (!found) {
   console.log(`Element ${target} not found in the array`);
 }
+// Copy the array :
+// Original array
+const originalArray = [1, 2, 3, 4];
+
+// Copying the array using slice method
+const copiedArray = originalArray.slice();
+
+// Copying the array using spread operator
+const copiedArraySpread = [...originalArray];
+
+// Modifying the copied arrays to demonstrate they are separate from the original
+copiedArray[0] = 10;
+copiedArraySpread[1] = 20;
+
+console.log("Original Array:", originalArray); // Output: [1, 2, 3, 4]
+console.log("Copied Array (slice):", copiedArray); // Output: [10, 2, 3, 4]
+console.log("Copied Array (spread):", copiedArraySpread); // Output: [1, 20, 3, 4]
+
+// with loop :
+// Original array
+const numbers = [1, 2, 3, 4];
+
+// Copying the array using a loop
+const copiedArrayLoop = [];
+for (let i = 0; i < numbers.length; i++) {
+  copiedArrayLoop.push(numbers[i]);
+}
+
+// Modifying the copied array to demonstrate it is separate from the original
+copiedArrayLoop[0] = 10;
+
+console.log("Original Array:", numbers); // Output: [1, 2, 3, 4]
+console.log("Copied Array (loop):", copiedArrayLoop); // Output: [10, 2, 3, 4]

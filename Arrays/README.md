@@ -14,6 +14,8 @@ I am going to calculate the time complexity of the following operations:
    - **Time Complexity**: O(n)
    - **Space Complexity**: O(1)
 4. **Copy**
+   - **Time Complexity**: O(n)
+   - **Space Complexity**: O(n)
 5. **Insert**:
    - At the beginning
    - At the end

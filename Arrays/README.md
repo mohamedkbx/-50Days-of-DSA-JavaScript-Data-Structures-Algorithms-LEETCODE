@@ -11,6 +11,8 @@ I am going to calculate the time complexity of the following operations:
    - **Time Complexity**: O(1)
    - **Space Complexity**: O(1)
 3. **Traverse/Search**
+   - **Time Complexity**: O(n)
+   - **Space Complexity**: O(1)
 4. **Copy**
 5. **Insert**:
    - At the beginning

@@ -31,6 +31,17 @@ I am going to calculate the time complexity of the following operations:
      - **Time Complexity**: O(n)
 
 6. **Remove**:
+
    - At the beginning
    - At the end
    - Somewhere in the middle
+
+   ## sort Squared Array
+
+   - Think about the following
+
+   - What would be the brute force way of solving this question ? What would be the Time and Space complexity of this approach?
+
+   - Is there a better way to solve this with a more optimum Time complexity than the Brute force way ?
+
+   - solve with Two Pointers

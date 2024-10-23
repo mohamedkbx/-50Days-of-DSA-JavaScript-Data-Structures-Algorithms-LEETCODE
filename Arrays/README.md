@@ -45,3 +45,5 @@ I am going to calculate the time complexity of the following operations:
    - Is there a better way to solve this with a more optimum Time complexity than the Brute force way ?
 
    - solve with Two Pointers
+   - **Time Complexity**: O(n)
+   - **Space Complexity**: O(n)
